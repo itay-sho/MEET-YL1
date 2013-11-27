@@ -1,4 +1,6 @@
-users = ["name","age"]
-for i in xrange(3):
-	users["name"].append = raw_input("Please enter your name: ")
-	users["age"].append = int(raw_input("Please enter your age: "))
+if __name__ == "__main__":
+	users = ["name","age"]
+	for i in xrange(3):
+		users["name"][i] = raw_input("Please enter your name: ")
+		users["age"][i] = int(raw_input("Please enter your age: "))
+	print users
